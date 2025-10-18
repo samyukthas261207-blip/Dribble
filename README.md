@@ -28,7 +28,7 @@ Publish the website in the LocalHost.
 ## PROGRAM :
 ```
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <title>Dribbble Style Page - No Styles</title>
@@ -36,20 +36,20 @@ Publish the website in the LocalHost.
 </head>
 <body>
 
-  <!-- Navbar -->
+  
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand fw-bold text-danger" href="#">Dribbble</a>
     </div>
   </nav>
 
-  <!-- Sign In / Sign Up Bar -->
+  
   <div class="d-flex justify-content-end align-items-center p-3 bg-white">
     <a href="#" class="me-3 text-decoration-none text-dark">Sign in</a>
     <a href="#" class="btn btn-light text-white" style="background-color: pink;">Sign up</a>
   </div>
 
-  <!-- Header -->
+  
   <header class="text-center my-5">
     <h4 class="fw-bold">What are you working on?</h4>
     <p class="text-danger">Dribbble is show and tell for designers.</p>
@@ -59,7 +59,7 @@ Publish the website in the LocalHost.
     </div>
   </header>
 
-  <!-- Image Grid -->
+  
   <main class="container mb-5">
     <div class="row g-4 text-center">
       <!-- Repeatable Image Grid -->
